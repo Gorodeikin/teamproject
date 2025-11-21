@@ -17,7 +17,7 @@ export const authService = {
 const baseURL =
   process.env.NEXT_PUBLIC_API_URL ||
   process.env.API_BASE_URL ||
-  'https://travellers-node.onrender.com';
+  'https://team-beakend.onrender.com';
 
 export const clientApi = axios.create({
   baseURL,
